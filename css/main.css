@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  text-align: center;
+  color: #9d9d9d;
+}
+.container .calculator {
+  width: 360px;
+  background-color: #79b4b7;
+  border-radius: 20px;
+  padding: 10px;
+}
+.container .calculator .input {
+  display: flex;
+  justify-content: space-around;
+}
+.container .calculator .input input {
+  width: 150px;
+}
+.container .calculator .input label {
+  color: #fefbf3;
+}
+.container .calculator .operation {
+  display: flex;
+  justify-content: space-around;
+}
+.container .calculator .result p {
+  text-align: center;
+  color: #fefbf3;
+}
+.container .calculator .result #hasil {
+  color: #fefbf3;
+  font-size: 3em;
+}
+
+/*# sourceMappingURL=main.css.map */
